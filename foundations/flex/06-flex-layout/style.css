@@ -5,8 +5,55 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* The styling here could've been used inside ul */
+.left-links,
+.right-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 15px
+}
 img {
   width: 600px;
 }
@@ -23,4 +70,8 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer{
+  background-color: lightgray;
 }
