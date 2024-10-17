@@ -10,8 +10,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
 
+.plantlist {
+  display: flex;
+  max-width: 80%;
+  justify-content: space-around;
+  margin: 0 auto;
+  gap: 52px;
+  align-items: center;
+}
+
+.plantcontainer {
+  max-width: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
